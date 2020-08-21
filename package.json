@@ -1,0 +1,48 @@
+{
+  "name": "iso639",
+  "version": "1.0.0",
+  "description": "select language of ISO 639",
+  "main": "index.js",
+  "scripts": {
+    "clean": "git -c core.excludesfile=/dev/null clean -X -d -f",
+    "make": "gulp",
+    "lint": "xo",
+    "fix": "xo --fix",
+    "postversion": "title=\"## Upcoming changes\";date=`date +%Y-%m-%d`;sed -i \"s/${title}/${title}\\n\\n## Version ${npm_package_version} - ${date}/\" CHANGELOG.md"
+  },
+  "author": "dev@hoppen.care",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/core": "7.11.4",
+    "@babel/preset-env": "7.11.0",
+    "gulp": "4.0.2",
+    "gulp-babel": "8.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-rename": "2.0.0",
+    "gulp-uglify": "3.0.2",
+    "xo": "0.33.0"
+  },
+  "xo": {
+    "space": 2,
+    "ignores": [
+      "dist/**"
+    ],
+    "globals": [
+      "window"
+    ],
+    "rules": {
+      "object-curly-spacing": [
+        "error",
+        "always"
+      ],
+      "array-bracket-spacing": [
+        "error",
+        "always"
+      ],
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ]
+    }
+  }
+}
