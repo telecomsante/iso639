@@ -1,0 +1,19 @@
+image: node:14.8-alpine
+
+stages:
+  - setup
+  - test
+
+setup:
+  stage: setup
+  artifacts:
+    paths:
+      - node_modules/
+    expire_in: 1 week
+  script:
+    - npm ci
+
+linter:
+  stage: test
+  script:
+    - npm run lint
