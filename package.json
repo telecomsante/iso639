@@ -8,7 +8,8 @@
     "make": "gulp",
     "lint": "xo",
     "fix": "xo --fix",
-    "postversion": "title=\"## Upcoming changes\";date=`date +%Y-%m-%d`;sed -i \"s/${title}/${title}\\n\\n## Version ${npm_package_version} - ${date}/\" CHANGELOG.md"
+    "postversion": "npm run make && npm run bump:changelog",
+    "bump:changelog": "title=\"## Upcoming changes\";date=`date +%Y-%m-%d`;sed -i \"s/${title}/${title}\\n\\n## Version ${npm_package_version} - ${date}/\" CHANGELOG.md"
   },
   "author": "dev@hoppen.care",
   "license": "UNLICENSED",
