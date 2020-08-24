@@ -1,6 +1,6 @@
 {
   "name": "iso639",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "select language of ISO 639",
   "main": "index.js",
   "scripts": {
