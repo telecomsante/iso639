@@ -2,6 +2,8 @@
 
 ## Upcoming changes
 
+- [FIX] [FOU] Fix sort languages by name
+
 ## Version 1.0.2 - 2020-08-24
 
 - [FIX] [FOU] Fix missed npm run make
