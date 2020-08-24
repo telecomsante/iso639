@@ -387,21 +387,21 @@
       var _languages$find;
 
       return (_languages$find = languages.find(function (i) {
-        return i.iso6391 === code;
+        return i.iso6391 === code || i.iso6391.split('/').includes(code);
       })) === null || _languages$find === void 0 ? void 0 : _languages$find.originalName;
     },
     getOriginalNameByIso6392: function getOriginalNameByIso6392(code) {
       var _languages$find2;
 
       return (_languages$find2 = languages.find(function (i) {
-        return i.iso6392 === code;
+        return i.iso6392 === code || i.iso6392.split('/').includes(code);
       })) === null || _languages$find2 === void 0 ? void 0 : _languages$find2.originalName;
     },
     getOriginalNameByIso6393: function getOriginalNameByIso6393(code) {
       var _languages$find3;
 
       return (_languages$find3 = languages.find(function (i) {
-        return i.iso6393 === code;
+        return i.iso6393 === code || i.iso6393.split('/').includes(code);
       })) === null || _languages$find3 === void 0 ? void 0 : _languages$find3.originalName;
     },
     // Get name by ISO
@@ -409,21 +409,21 @@
       var _languages$find4;
 
       return (_languages$find4 = languages.find(function (i) {
-        return i.iso6391 === code;
+        return i.iso6391 === code || i.iso6391.split('/').includes(code);
       })) === null || _languages$find4 === void 0 ? void 0 : _languages$find4.name;
     },
     getNameByIso6392: function getNameByIso6392(code) {
       var _languages$find5;
 
       return (_languages$find5 = languages.find(function (i) {
-        return i.iso6392 === code;
+        return i.iso6392 === code || i.iso6392.split('/').includes(code);
       })) === null || _languages$find5 === void 0 ? void 0 : _languages$find5.name;
     },
     getNameByIso6393: function getNameByIso6393(code) {
       var _languages$find6;
 
       return (_languages$find6 = languages.find(function (i) {
-        return i.iso6393 === code;
+        return i.iso6393 === code || i.iso6393.split('/').includes(code);
       })) === null || _languages$find6 === void 0 ? void 0 : _languages$find6.name;
     },
     // Get ISO by name or original name
@@ -453,42 +453,42 @@
       var _languages$find10;
 
       return (_languages$find10 = languages.find(function (i) {
-        return i.iso6391 === code;
+        return i.iso6391 === code || i.iso6391.split('/').includes(code);
       })) === null || _languages$find10 === void 0 ? void 0 : _languages$find10.iso6392;
     },
     iso6391ToIso6393: function iso6391ToIso6393(code) {
       var _languages$find11;
 
       return (_languages$find11 = languages.find(function (i) {
-        return i.iso6391 === code;
+        return i.iso6391 === code || i.iso6391.split('/').includes(code);
       })) === null || _languages$find11 === void 0 ? void 0 : _languages$find11.iso6393;
     },
     iso6392ToIso6391: function iso6392ToIso6391(code) {
       var _languages$find12;
 
       return (_languages$find12 = languages.find(function (i) {
-        return i.iso6392 === code;
+        return i.iso6392 === code || i.iso6392.split('/').includes(code);
       })) === null || _languages$find12 === void 0 ? void 0 : _languages$find12.iso6391;
     },
     iso6392ToIso6393: function iso6392ToIso6393(code) {
       var _languages$find13;
 
       return (_languages$find13 = languages.find(function (i) {
-        return i.iso6392 === code;
+        return i.iso6392 === code || i.iso6392.split('/').includes(code);
       })) === null || _languages$find13 === void 0 ? void 0 : _languages$find13.iso6393;
     },
     iso6393ToIso6391: function iso6393ToIso6391(code) {
       var _languages$find14;
 
       return (_languages$find14 = languages.find(function (i) {
-        return i.iso6393 === code;
+        return i.iso6393 === code || i.iso6393.split('/').includes(code);
       })) === null || _languages$find14 === void 0 ? void 0 : _languages$find14.iso6391;
     },
     iso6393ToIso6392: function iso6393ToIso6392(code) {
       var _languages$find15;
 
       return (_languages$find15 = languages.find(function (i) {
-        return i.iso6393 === code;
+        return i.iso6393 === code || i.iso6393.split('/').includes(code);
       })) === null || _languages$find15 === void 0 ? void 0 : _languages$find15.iso6392;
     }
   };
