@@ -2,17 +2,17 @@
 
 (function (exports) {
   var languages = [{
-    name: 'Afar',
-    originalName: 'Afaraf',
-    iso6391: 'aa',
-    iso6392: 'aar',
-    iso6393: 'aar'
-  }, {
     name: 'Abkhaz',
     originalName: 'Аҧсуа',
     iso6391: 'ab',
     iso6392: 'abk',
     iso6393: 'abk'
+  }, {
+    name: 'Afar',
+    originalName: 'Afaraf',
+    iso6391: 'aa',
+    iso6392: 'aar',
+    iso6393: 'aar'
   }, {
     name: 'Afrikaans',
     originalName: 'Afrikaans',
@@ -104,6 +104,12 @@
     iso6392: 'cos',
     iso6393: 'cos'
   }, {
+    name: 'Croatian',
+    originalName: 'Hrvatski',
+    iso6391: 'hr',
+    iso6392: 'hrv',
+    iso6393: 'hrv'
+  }, {
     name: 'Czech',
     originalName: 'česky, čeština',
     iso6391: 'cs',
@@ -158,29 +164,11 @@
     iso6392: 'ger/deu',
     iso6393: 'deu'
   }, {
-    name: 'Irish',
-    originalName: 'Gaeilge',
-    iso6391: 'ga',
-    iso6392: 'gle',
-    iso6393: 'gle'
-  }, {
     name: 'Greek',
     originalName: 'Ελληνικά',
     iso6391: 'el',
     iso6392: 'gre/ell/grc',
     iso6393: 'ell/grc'
-  }, {
-    name: 'Indi',
-    originalName: 'हिन्दी',
-    iso6391: 'hi',
-    iso6392: 'hin',
-    iso6393: 'hin'
-  }, {
-    name: 'Croatian',
-    originalName: 'Hrvatski',
-    iso6391: 'hr',
-    iso6392: 'hrv',
-    iso6393: 'hrv'
   }, {
     name: 'Hungarian',
     originalName: 'Magyar',
@@ -194,11 +182,23 @@
     iso6392: 'ice/isl',
     iso6393: 'isl'
   }, {
+    name: 'Indi',
+    originalName: 'हिन्दी',
+    iso6391: 'hi',
+    iso6392: 'hin',
+    iso6393: 'hin'
+  }, {
     name: 'Indonesian',
     originalName: 'Bahasa Indonesia',
     iso6391: 'id',
     iso6392: 'ind',
     iso6393: 'ind'
+  }, {
+    name: 'Irish',
+    originalName: 'Gaeilge',
+    iso6391: 'ga',
+    iso6392: 'gle',
+    iso6393: 'gle'
   }, {
     name: 'Italian',
     originalName: 'Italiano',
@@ -206,17 +206,17 @@
     iso6392: 'ita',
     iso6393: 'ita'
   }, {
-    name: 'Javanese',
-    originalName: 'Basa Jawa',
-    iso6391: 'jv',
-    iso6392: 'jav',
-    iso6393: 'jav'
-  }, {
     name: 'Japanese',
     originalName: '日本語',
     iso6391: 'ja',
     iso6392: 'jpn',
     iso6393: 'jpn'
+  }, {
+    name: 'Javanese',
+    originalName: 'Basa Jawa',
+    iso6391: 'jv',
+    iso6392: 'jav',
+    iso6393: 'jav'
   }, {
     name: 'Kazakh',
     originalName: 'Қазақ тілі',
@@ -260,12 +260,6 @@
     iso6392: 'mac/mkd',
     iso6393: 'mkd'
   }, {
-    name: 'Māori',
-    originalName: 'Māori',
-    iso6391: 'mi',
-    iso6392: 'mao/mri',
-    iso6393: 'mri'
-  }, {
     name: 'Maltese',
     originalName: 'Malti',
     iso6391: 'mt',
@@ -283,6 +277,12 @@
     iso6391: 'mn',
     iso6392: 'mon',
     iso6393: 'mon'
+  }, {
+    name: 'Māori',
+    originalName: 'Māori',
+    iso6391: 'mi',
+    iso6392: 'mao/mri',
+    iso6393: 'mri'
   }, {
     name: 'Nepali',
     originalName: 'नेपाली',
@@ -320,6 +320,12 @@
     iso6392: 'rus',
     iso6393: 'rus'
   }, {
+    name: 'Serbian',
+    originalName: 'српски',
+    iso6391: 'sr',
+    iso6392: 'scc/srp',
+    iso6393: 'srp'
+  }, {
     name: 'Slovak',
     originalName: 'Slovenčina',
     iso6391: 'sk',
@@ -337,12 +343,6 @@
     iso6391: 'es',
     iso6392: 'spa',
     iso6393: 'spa'
-  }, {
-    name: 'Serbian',
-    originalName: 'српски',
-    iso6391: 'sr',
-    iso6392: 'scc/srp',
-    iso6393: 'srp'
   }, {
     name: 'Swedish',
     originalName: 'Svenska',
